@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form: </title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <hr>
+    <form action="/server">
+        <div>
+            <label for="name"><b>Full Name:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="text" id="name" name="full_name" placeholder="Enter your full name">
+        </div>
+        <br>
+        <div>
+            <label for="email"><b>Email:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;</lable>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <br>
+        <div>
+            <label for="pwd"><b>Password:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="password" id="pwd" name="password" placeholder="Enter your password">
+        </div>
+        <br>
+        <div>
+            <label for="age"><b>Age:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age">
+        </div>
+        <br>
+        <div>
+            <label for="dob"><b>Date of Birth:</b>&nbsp; &nbsp; &nbsp; &nbsp;</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <br>
+        <div>
+            <b>Gender:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>&nbsp; &nbsp;
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>&nbsp; &nbsp;
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <div>
+            <b>Hobbies:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="checkbox" id="read" name="hobby" value="reading">
+            <label for="read">Reading</label>&nbsp; &nbsp;
+
+            <input type="checkbox" id="sport" name="hobby" value="sports">
+            <label for="sport">Sports</label>&nbsp; &nbsp;
+
+            <input type="checkbox" id="music" name="hobby" value="music">
+            <label for="music">Music</label>&nbsp; &nbsp; 
+
+            <input type="checkbox" id="travel" name="hobby" value="travelling">
+            <label for="travel">Travelling</label>
+        </div>
+        <br>
+        <div>
+            <label for="country"><b>Country:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</label>
+            <Select id="country" name="country">
+                <option selected>Select your country</option>
+                <option value="india">India</option>
+                <option value="nepal">Nepal</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="canada">Canada</option>
+                <option value="america">America</option>
+            </Select>
+        </div>
+        <br>
+        <div>
+            <label for="addr"><b>Address:</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+            <textarea id="addr" placeholder="Enter your address" rows="5" cols="20"></textarea>
+        </div>
+        <br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <button type="submit">Submit</button> &nbsp; &nbsp; 
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
