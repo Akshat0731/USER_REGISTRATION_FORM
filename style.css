@@ -1,0 +1,52 @@
+* {
+    font-family:'Georgia';
+    font-size:20px;
+    letter-spacing:0.5px;
+    line-height:1.5;
+}
+form {
+    background-color:#BBDB9B;
+}
+
+h1 {
+    background-color:#9DB4AB;
+}
+
+input[type] {
+    color:blue;
+}
+
+button {
+    color:white;
+    background-color:red;
+}
+
+*::selection {
+    color:white;
+    background-color:black;
+    font-weight:700;
+}
+
+button:hover{
+    color:red;
+    background-color:yellow;
+}
+
+button:active{
+    color:white;
+    background-color:pink;
+}
+
+input[type="radio"]:checked + label {
+    color:crimson;
+    text-decoration:underline;
+}
+
+input[type="checkbox"]:checked + label {
+    color:purple;
+    text-decoration:underline;
+}
+
+input::placeholder {
+    color:red;
+}
